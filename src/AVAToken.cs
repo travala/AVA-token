@@ -7,11 +7,11 @@ using System.Numerics;
 
 namespace Neo.SmartContract
 {
-    public class TRVToken : Framework.SmartContract
+    public class AVAToken : Framework.SmartContract
     {
         //Token Settings
         public static string Name() => "Travala";
-        public static string Symbol() => "AVA 6";
+        public static string Symbol() => "AVA";
 
         public static readonly byte[] OWNER = "AUuchTs4qBwZyD4VZotpFa65buNjEDHw6u".ToScriptHash();
         public static readonly byte[] OPERATOR = "AXaFwq7o1BGnfbq9x1xgTTXNa7ibGZuTuD".ToScriptHash();

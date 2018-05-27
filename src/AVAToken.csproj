@@ -8,8 +8,8 @@
     <ProjectGuid>{15B1F408-78B2-4A5B-9600-7F979163EFA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TRVToken</RootNamespace>
-    <AssemblyName>TRVToken</AssemblyName>
+    <RootNamespace>AVAToken</RootNamespace>
+    <AssemblyName>AVAToken</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TRVToken.cs" />
+    <Compile Include="AVAToken.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
