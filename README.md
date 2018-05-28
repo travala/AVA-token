@@ -26,15 +26,15 @@ There are standard NEP-5 token smart contract and 4 optional operations for this
 
 #### balanceOf
 
-	* Returns the token balance of the ‘’’account’’’.
+	* Returns the token balance of the `account`.
 
 #### transfer
 
-	* Will transfer an ‘’’amount’’’ of tokens from the ‘’’from’’’ account to the ‘’’to’’’ account.
+	* Will transfer an `amount` of tokens from the `from` account to the `to` account.
 
 #### approve
 
-	- Grant permission for another user to withdraw from the invocation account up to an amount of ‘’’value’’’
+	- Grant permission for another user to withdraw from the invocation account up to an amount of `value`
 
 #### allowance
 
@@ -42,15 +42,15 @@ There are standard NEP-5 token smart contract and 4 optional operations for this
 
 #### transferFrom
 
-	* Will transfer an ‘’’amount’’’ of tokens from the ‘’’from’’’ account to the ‘’’to’’’ account with right granted for ‘’’originator’’’
+	* Will transfer an `amount` of tokens from the `from` account to the `to` account with right granted for `originator`
 
 #### lock
 
-	* Will lock for an ‘’’amount’’’ of tokens from the ‘’’from’’’ account to the ‘’’to’’’ account in a period of ‘’’lockTime’’’
+	* Will lock for an `amount` of tokens from the `from` account to the `to` account in a period of `lockTime`
 
 #### unlock
 
-	* Will transfer locked tokens from the ‘’’from’’’ account to the ‘’’to’’’ account in if locked period passed
+	* Will transfer locked tokens from the `from` account to the `to` account in if locked period passed
 
 ### Events
 
