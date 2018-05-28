@@ -56,5 +56,5 @@ There are standard NEP-5 token smart contract and 4 optional operations for this
 
 #### transfer
 
-	* The “transfer” event is raised after a successful execution of the “transfer” method.
+	* The `transfer` event is raised after a successful execution of the `transfer` method.
 
