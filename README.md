@@ -6,55 +6,55 @@ An implementation of a NEO-5 AVA token - [Travala.com](https://travala.com)
 
 There are standard NEP-5 token smart contract and 4 optional operations for this token:
 
-===Methods===
+### Methods
 
-====totalSupply====
+#### totalSupply
 
 	* Returns the total token supply deployed in the system.
 
-====name====
+#### name
 
 	* Returns the token name.
 
-====symbol====
+#### symbol
 
 	* Returns the token symbol.
 
-====decimals====
+#### decimals
 
 	* Returns the number of decimals used by the token.
 
-====balanceOf====
+#### balanceOf
 
 	* Returns the token balance of the ‘’’account’’’.
 
-====transfer====
+#### transfer
 
 	* Will transfer an ‘’’amount’’’ of tokens from the ‘’’from’’’ account to the ‘’’to’’’ account.
 
-====approve====
+#### approve
 
 	- Grant permission for another user to withdraw from the invocation account up to an amount of ‘’’value’’’
 
-====allowance====
+#### allowance
 
 	- Return amount of token allowed to withdraw from an user
 
-====transferFrom====
+#### transferFrom
 
 	* Will transfer an ‘’’amount’’’ of tokens from the ‘’’from’’’ account to the ‘’’to’’’ account with right granted for ‘’’originator’’’
 
-====lock====
+#### lock
 
 	* Will lock for an ‘’’amount’’’ of tokens from the ‘’’from’’’ account to the ‘’’to’’’ account in a period of ‘’’lockTime’’’
 
-====unlock====
+#### unlock
 
 	* Will transfer locked tokens from the ‘’’from’’’ account to the ‘’’to’’’ account in if locked period passed
 
-===Events===
+### Events
 
-====transfer====
+#### transfer
 
 	* The “transfer” event is raised after a successful execution of the “transfer” method.
 
