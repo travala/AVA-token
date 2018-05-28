@@ -34,11 +34,11 @@ There are standard NEP-5 token smart contract and 4 optional operations for this
 
 #### approve
 
-	- Grant permission for another user to withdraw from the invocation account up to an amount of `value`
+	* Grant permission for another user to withdraw from the invocation account up to an amount of `value`
 
 #### allowance
 
-	- Return amount of token allowed to withdraw from an user
+	* Return amount of token allowed to withdraw from an user
 
 #### transferFrom
 
